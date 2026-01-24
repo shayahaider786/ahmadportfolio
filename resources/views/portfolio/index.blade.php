@@ -23,7 +23,7 @@
                 <img src="{{ asset('frontend/assets/right-arrow-white.png') }}" alt="" class="w-4" />
             </a>
 
-            <a href="{{ asset('frontend/assets/dev-icon.png') }}" download
+            <a href="{{ asset('Ahmed.pdf') }}" download="Ahmed.pdf"
                 class="px-10 py-2.5 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white">
                 My Resume
                 <img src="{{ asset('frontend/assets/download-icon.png') }}" alt="" class="w-4 dark:invert" />
@@ -36,7 +36,7 @@
         <h2 class="text-center text-5xl font-Ovo mt-10">About me</h2>
         <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
             <div class="max-w-max mx-auto relative">
-                <img src="{{ asset('frontend/assets/user-image.png') }}" alt=""
+                <img src="{{ asset('frontend/assets/about.png') }}" alt=""
                     class="w-64 sm:w-80 rounded-3xl max-w-none" />
                 <div
                     class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
@@ -121,6 +121,35 @@
                         class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
                         <img src="{{ asset('frontend/assets/git.png') }}" alt="git" class="w-5 sm:w-7" />
                     </li>
+                    <li
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="{{ asset('frontend/assets/html.png') }}" alt="git" class="w-5 sm:w-7" />
+                    </li>
+                    <li
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="{{ asset('frontend/assets/css.png') }}" alt="git" class="w-5 sm:w-7" />
+                    </li>
+                    <li
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="{{ asset('frontend/assets/js.png') }}" alt="git" class="w-5 sm:w-7" />
+                    </li>
+                    <li
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="{{ asset('frontend/assets/mysql.png') }}" alt="git" class="w-5 sm:w-7" />
+                    </li>
+                    <li
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="{{ asset('frontend/assets/next.png') }}" alt="git" class="w-5 sm:w-7" />
+                    </li>
+                    <li
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="{{ asset('frontend/assets/node.png') }}" alt="git" class="w-5 sm:w-7" />
+                    </li>
+                    <li
+                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                        <img src="{{ asset('frontend/assets/reactjs.png') }}" alt="git" class="w-5 sm:w-7" />
+                    </li>
+
                 </ul>
             </div>
         </div>
