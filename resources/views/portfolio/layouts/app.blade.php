@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eliana Portfolio - PrebuiltUI</title>
+    <title>Ahmad Portfolio</title>
     <link rel="stylesheet" href="{{ asset('frontend/output.css') }}" />
     <link rel="stylesheet" href="{{ asset('frontend/input.css') }}" />
+    <link rel="stylesheet" href="{{asset('frontend/media.css')}}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

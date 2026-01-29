@@ -3,8 +3,7 @@
 @section('content')
     <!-- ----- home section ------ -->
     <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-        {{-- <img src="{{ asset('frontend/assets/profile-img.png') }}" alt="" class="rounded-full w-32" /> --}}
-        <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
+        <h3 class="flex items-end gap-2 text-xl md:text-2xl mt-10 sm:mt-10 mb-3 font-Ovo marginTop">
             Hi! I&apos;m Ahmad Shoukat
             <img src="{{ asset('frontend/assets/hand-icon.png') }}" alt="" class="w-6 mb-1" />
         </h3>
@@ -36,7 +35,7 @@
         <h2 class="text-center text-5xl font-Ovo mt-10">About me</h2>
         <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
             <div class="max-w-max mx-auto relative">
-                <img src="{{ asset('frontend/assets/about.png') }}" alt=""
+                <img src="{{ asset('frontend/assets/about3.jpg') }}" alt=""
                     class="w-64 sm:w-80 rounded-3xl max-w-none" />
                 <div
                     class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
@@ -58,7 +57,11 @@
                     efficient, and user-focused solutions while continuously improving
                     my skills and staying up to date with the latest web technologies.
                 </p>
-                <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+
+            </div>
+        </div>
+        <div>
+             <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6">
                     <li
                         class="border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
                         <img src="{{ asset('frontend/assets/code-icon.png') }}" alt=""
@@ -100,58 +103,70 @@
                 <h4 class="my-6 text-gray-700 font-Ovo dark:text-white/80">
                     Tools i use
                 </h4>
-                <ul class="flex items-center gap-3 sm:gap-5">
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/vscode.png') }}" alt="vscode" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/firebase.png') }}" alt="firebase" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/mongodb.png') }}" alt="mongodb" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/figma.png') }}" alt="figma" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/git.png') }}" alt="git" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/html.png') }}" alt="git" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/css.png') }}" alt="git" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/js.png') }}" alt="git" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/mysql.png') }}" alt="git" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/next.png') }}" alt="git" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/node.png') }}" alt="git" class="w-5 sm:w-7" />
-                    </li>
-                    <li
-                        class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                        <img src="{{ asset('frontend/assets/reactjs.png') }}" alt="git" class="w-5 sm:w-7" />
-                    </li>
-
-                </ul>
-            </div>
+                <div class="">
+                    <ul class="flex items-center gap-3 sm:gap-5 flex-wrap">
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/html-5.png') }}" alt="html" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/css-3.png') }}" alt="css" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/javascript.png') }}" alt="javascript" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/react.png') }}" alt="react" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/nextjs.png') }}" alt="nextjs" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/mongodb.png') }}" alt="mongodb" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/nodejs.png') }}" alt="nodejs" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/mysql.png') }}" alt="mysql" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/sql.png') }}" alt="sql" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/typescript.png') }}" alt="typescript" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/supabase.png') }}" alt="supabase" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/git.png') }}" alt="git" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/github.png') }}" alt="github" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/psotman.png') }}" alt="postman" class="w-5 sm:w-10" />
+                        </li>
+                        <li
+                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                            <img src="{{ asset('frontend/assets/reactjs.png') }}" alt="git" class="w-5 sm:w-10" />
+                        </li>
+                    </ul>
+                </div>
         </div>
     </div>
 
