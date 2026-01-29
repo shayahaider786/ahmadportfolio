@@ -33,7 +33,7 @@
     <!-- ----- about me section ------ -->
     <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
         <h2 class="text-center text-5xl font-Ovo mt-10">About me</h2>
-        <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+        <div class="flex w-full flex-col lg:flex-row gap-20 my-20">
             <div class="max-w-max mx-auto relative">
                 <img src="{{ asset('frontend/assets/about3.jpg') }}" alt=""
                     class="w-64 sm:w-80 rounded-3xl max-w-none" />
@@ -47,15 +47,20 @@
             </div>
             <div class="flex-1">
                 <p class="mb-10 max-w-2xl font-Ovo">
-                    I am a motivated Full Stack Developer from Lahore, Pakistan, with 2
-                    years of hands-on experience in building modern web applications
-                    using the MERN stack. I specialize in creating responsive and
-                    interactive user interfaces with React and Next.js, along with
-                    developing secure and scalable backend systems using Node.js and
-                    Express. I have experience working with MongoDB, building REST APIs,
-                    and integrating third-party services. My goal is to deliver clean,
-                    efficient, and user-focused solutions while continuously improving
-                    my skills and staying up to date with the latest web technologies.
+                    I am a passionate and results-driven Full Stack Developer with 
+                    over 2 years of hands-on experience in designing and developing modern, 
+                    scalable web applications using the MERN stack. I specialize
+                    in building responsive and interactive user interfaces with React
+                    and Next.js, as well as developing secure and efficient backend
+                    systems using Node.js and Express. I have strong experience working
+                    with MongoDB, designing RESTful APIs, and integrating third-party
+                    services to enhance application functionality. I follow clean code
+                    practices and focus on performance, security, and maintainability
+                    in every project I work on. My goal is to deliver high-quality,
+                    user-focused solutions while continuously improving my technical
+                    skills and staying up to date with the latest web technologies. I
+                    enjoy solving complex problems, collaborating with cross-functional
+                    teams, and contributing to impactful digital products.
                 </p>
 
             </div>
@@ -71,8 +76,8 @@
                             Languages
                         </h3>
                         <p class="text-gray-600 text-sm dark:text-white/80">
-                            HTML, CSS, JavaScript, React Js, Next Js, Node Js, Express Js,
-                            MongoDB, Postrasql, Supabase
+                            HTML, CSS, JavaScript, Boostrap, React.Js, Next.Js, Node.Js, Express.Js, TypeScript, Tailwind.Css
+                            Material.Ui, MongoDB, Postrasql, Sql, Supabase,
                         </p>
                     </li>
                     <li
@@ -84,7 +89,7 @@
                             Education
                         </h3>
                         <p class="text-gray-600 text-sm dark:text-white/80">
-                            BS Software Engineering
+                            Bachelor of Science in Software Engineering
                         </p>
                     </li>
                     <li
@@ -96,7 +101,7 @@
                             Projects
                         </h3>
                         <p class="text-gray-600 text-sm dark:text-white/80">
-                            Built more than 10 projects
+                            Delivered 5+ real-world projects with clean and scalable code.
                         </p>
                     </li>
                 </ul>
@@ -104,7 +109,7 @@
                     Tools i use
                 </h4>
                 <div class="">
-                    <ul class="flex items-center gap-3 sm:gap-5 flex-wrap">
+                    <ul class="flex items-center gap-3 sm:gap-12 flex-wrap">
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
                             <img src="{{ asset('frontend/assets/html-5.png') }}" alt="html" class="w-5 sm:w-10" />
@@ -123,7 +128,7 @@
                         </li>
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                            <img src="{{ asset('frontend/assets/nextjs.png') }}" alt="nextjs" class="w-5 sm:w-10" />
+                            <img src="{{ asset('frontend/assets/nextjs.png') }}" alt="nextjs" class="w-5 sm:w-16" />
                         </li>
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
@@ -136,10 +141,6 @@
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
                             <img src="{{ asset('frontend/assets/mysql.png') }}" alt="mysql" class="w-5 sm:w-10" />
-                        </li>
-                        <li
-                            class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                            <img src="{{ asset('frontend/assets/sql.png') }}" alt="sql" class="w-5 sm:w-10" />
                         </li>
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
@@ -159,11 +160,11 @@
                         </li>
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                            <img src="{{ asset('frontend/assets/psotman.png') }}" alt="postman" class="w-5 sm:w-10" />
+                            <img src="{{ asset('frontend/assets/material-ui.png') }}" alt="material-ui" class="w-5 sm:w-10" />
                         </li>
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                            <img src="{{ asset('frontend/assets/reactjs.png') }}" alt="git" class="w-5 sm:w-10" />
+                            <img src="{{ asset('frontend/assets/postman.png') }}" alt="postman" class="w-5 sm:w-10" />
                         </li>
                     </ul>
                 </div>
