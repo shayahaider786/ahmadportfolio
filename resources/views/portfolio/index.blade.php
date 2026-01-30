@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="flex-1">
-                <p class="mb-10 max-w-2xl font-Ovo">
+                <p class="mb-10 max-w-2xl font-Ovo text-justify">
                     I am a passionate and results-driven Full Stack Developer with 
                     over 2 years of hands-on experience in designing and developing modern, 
                     scalable web applications using the MERN stack. I specialize
@@ -156,7 +156,7 @@
                         </li>
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                            <img src="{{ asset('frontend/assets/github.png') }}" alt="github" class="w-5 sm:w-10" />
+                            <img src="{{ asset('frontend/assets/github-icon-dark.png') }}" alt="github" class="w-5 sm:w-10" />
                         </li>
                         <li
                             class="flex items-center justify-center w-20 sm:w-16 aspect-square border border-gray-300 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
@@ -212,7 +212,7 @@
 
         <h4 class="text-center mb-2 text-lg font-Ovo">Project Submission</h4>
         <h2 class="text-center text-4xl font-Ovo">Submit Your Project Details</h2>
-        <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+        <p class="text-center max-w-5xl mx-auto mt-5 mb-12 font-Ovo">
             Share your project requirements with me. I'll review your details and get back to you with a proposal.
         </p>
 
@@ -237,7 +237,7 @@
         @endif
 
         <form action="{{ route('project.form.store') }}" method="POST" enctype="multipart/form-data"
-            class="max-w-2xl mx-auto">
+            class="max-w-3xl mx-auto">
             @csrf
 
             <!-- Email -->
@@ -304,7 +304,7 @@
         class="w-full px-[12%] py-20 mt-10 scroll-mt-20 bg-[url('{{ asset('frontend/assets/footer-bg-color.png') }}')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
         <h4 class="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
         <h2 class="text-center text-5xl font-Ovo">Get in touch</h2>
-        <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+        <p class="text-center max-w-5xl mx-auto mt-5 mb-12 font-Ovo">
             I'd love to hear from you! If you have any questions, comments or
             feedback, please use the form below.
         </p>
@@ -329,7 +329,7 @@
             </div>
         @endif
 
-        <form action="{{ route('contact.store') }}" method="POST" class="max-w-2xl mx-auto">
+        <form action="{{ route('contact.store') }}" method="POST" class="max-w-3xl mx-auto">
             @csrf
             <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
                 <input type="text" placeholder="Enter your name" name="name" value="{{ old('name') }}"
