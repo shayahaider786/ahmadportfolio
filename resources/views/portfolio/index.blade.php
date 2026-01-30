@@ -7,7 +7,7 @@
             Hi! I&apos;m Ahmad Shoukat
             <img src="{{ asset('frontend/assets/hand-icon.png') }}" alt="" class="w-6 mb-1" />
         </h3>
-        <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
+        <h1 class="text-3xl sm:text-6xl lg:text-[60px] font-Ovo">
             full stack web developer.
         </h1>
         <p class="max-w-2xl mx-auto font-Ovo">
