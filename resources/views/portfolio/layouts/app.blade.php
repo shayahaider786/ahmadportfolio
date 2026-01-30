@@ -152,9 +152,9 @@
           />
         </a>
         <div class="w-max flex items-center gap-2 mx-auto">
-          <img src="{{ asset('frontend/assets/images/mail.png') }}" alt="" class="w-5 dark:hidden" />
+          <img src="{{ asset('frontend/assets/mail-icon.png') }}" alt="" class="w-5 dark:hidden" />
           <img
-            src="{{ asset('frontend/assets/images/mail.png') }}"
+            src="{{ asset('frontend/assets/mail-icon-dark.png') }}"
             alt=""
             class="w-5 hidden dark:block"
           />
@@ -166,14 +166,31 @@
       >
         <p>
           © 2025
-          <a href="https://prebuiltui.com/" target="_blank">PrebuiltUI</a>. All
-          rights reserved. Distributed by
-          <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+          <a href="" target="_blank">Ahmad Shoukat</a>. All
+          rights reserved.
         </p>
         <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-          <li><a target="_blank" href="https://github.com/Developer5050">GitHub</a></li>
-          <li><a target="_blank" href="www.linkedin.com/in/ahmad-shoukat-mern">LinkedIn</a></li>
-          <li><a target="_blank" href="https://www.instagram.com/ahahmad6105/">Instagram</a></li>
+          <li>
+            <a target="_blank" href="https://github.com/Developer5050" class="flex items-center gap-2">
+            <img src="{{ asset('frontend/assets/github-icon.png') }}" alt="GitHub" class="w-5 dark:hidden" />
+            <img src="{{ asset('frontend/assets/github-icon-dark.png') }}" alt="GitHub" class="w-5 hidden dark:block" />
+            GitHub
+            </a>
+          </li>
+          <li>
+           <a target="_blank" href="https://www.linkedin.com/in/ahmad-shoukat-mern" class="flex items-center gap-2">
+           <img src="{{ asset('frontend/assets/linkedin-icon.png') }}" alt="LinkedIn" class="w-5 dark:hidden" />
+           <img src="{{ asset('frontend/assets/linkedin-icon-dark.png') }}" alt="LinkedIn" class="w-5 hidden dark:block" />
+           LinkedIn
+           </a>
+          </li>
+          <li>
+           <a target="_blank" href="https://www.instagram.com/ahahmad6105/" class="flex items-center gap-2">
+           <img src="{{ asset('frontend/assets/instagram-icon.png') }}" alt="Instagram" class="w-5 dark:hidden" />
+           <img src="{{ asset('frontend/assets/instagram-icon-dark.png') }}" alt="Instagram" class="w-5 hidden dark:block" />
+           Instagram
+           </a>
+          </li>
         </ul>
       </div>
     </div>

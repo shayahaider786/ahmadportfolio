@@ -31,14 +31,14 @@
     </div>
 
     <!-- ----- about me section ------ -->
-    <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
-        <h2 class="text-center text-5xl font-Ovo mt-10">About me</h2>
+    <div id="about" class="w-full px-[12%] py-20 mt-10 scroll-mt-20">
+        <h2 class="text-center text-4xl font-Ovo mt-10">About me</h2>
         <div class="flex w-full flex-col lg:flex-row gap-20 my-20">
             <div class="max-w-max mx-auto relative">
                 <img src="{{ asset('frontend/assets/about3.jpg') }}" alt=""
-                    class="w-64 sm:w-80 rounded-3xl max-w-none" />
+                    class="w-64 sm:w-96 rounded-3xl max-w-none" />
                 <div
-                    class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
+                    class="bg-white w-36 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
                     <img src="{{ asset('frontend/assets/circular-text.png') }}" alt=""
                         class="w-full animate-spin_slow" />
                     <img src="{{ asset('frontend/assets/dev-icon.png') }}" alt=""
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div>
-             <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+             <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-20">
                     <li
                         class="border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
                         <img src="{{ asset('frontend/assets/code-icon.png') }}" alt=""
@@ -172,9 +172,9 @@
     </div>
 
     <!-- My Work Section -->
-    <div id="work" class="w-full px-[12%] py-10 scroll-mt-20">
+    <div id="work" class="w-full px-[12%] py-20 mt-10 scroll-mt-20">
         <h4 class="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
-        <h2 class="text-center text-5xl font-Ovo">My latest work</h2>
+        <h2 class="text-center text-4xl font-Ovo">My latest work</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
             Below are some of my latest projects, showcasing my skills in full stack
             web development. Each project reflects my focus on clean design,
@@ -208,10 +208,10 @@
 
     {{-- Project Submission Section --}}
     <div id="project-submission"
-        class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('{{ asset('frontend/assets/footer-bg-color.png') }}')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
+        class="w-full px-[12%] py-20 mt-10 scroll-mt-20 bg-[url('{{ asset('frontend/assets/footer-bg-color.png') }}')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
 
         <h4 class="text-center mb-2 text-lg font-Ovo">Project Submission</h4>
-        <h2 class="text-center text-5xl font-Ovo">Submit Your Project Details</h2>
+        <h2 class="text-center text-4xl font-Ovo">Submit Your Project Details</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
             Share your project requirements with me. I'll review your details and get back to you with a proposal.
         </p>
@@ -243,7 +243,7 @@
             <!-- Email -->
             <div class="mb-6">
                 <input type="email" name="email" placeholder="Enter your email" value="{{ old('email') }}"
-                    class="w-full px-4 py-2 focus:ring-1 outline-none border border-gray-300 dark:border-white/30
+                    class="w-full px-4 py-2 focus:ring-1 outline-none border  dark:border-white/30
             rounded-md bg-white dark:bg-darkHover/30 @error('email') border-red-500 @enderror"
                     required>
                 @error('email')
@@ -254,7 +254,7 @@
             <!-- Project Name -->
             <div class="mb-6">
                 <input type="text" name="project_name" placeholder="Project name" value="{{ old('project_name') }}"
-                    class="w-full px-4 py-2 focus:ring-1 outline-none border border-gray-300 dark:border-white/30
+                    class="w-full px-4 py-2 focus:ring-1 outline-none border  dark:border-white/30
             rounded-md bg-white dark:bg-darkHover/30 @error('project_name') border-red-500 @enderror"
                     required>
                 @error('project_name')
@@ -265,7 +265,7 @@
             <!-- Project Description -->
             <div class="mb-6">
                 <textarea rows="6" name="project_description" placeholder="Describe your project"
-                    class="w-full px-4 py-2 focus:ring-1 outline-none border border-gray-300 dark:border-white/30
+                    class="w-full px-4 py-2 focus:ring-1 outline-none border  dark:border-white/30
             rounded-md bg-white dark:bg-darkHover/30 @error('project_description') border-red-500 @enderror"
                     required>{{ old('project_description') }}</textarea>
                 @error('project_description')
@@ -279,7 +279,7 @@
                     Upload Project File (PDF, DOC, DOCX - Max 10MB)
                 </label>
                 <input type="file" name="project_file" accept=".pdf,.doc,.docx"
-                    class="w-full px-4 py-2 border border-gray-300 dark:border-white/30
+                    class="w-full px-4 py-2 border dark:border-white/30
             rounded-md bg-white dark:bg-darkHover/30 @error('project_file') border-red-500 @enderror"
                     required>
                 @error('project_file')
@@ -301,7 +301,7 @@
 
     <!-- Contact me section -->
     <div id="contact"
-        class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('{{ asset('frontend/assets/footer-bg-color.png') }}')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
+        class="w-full px-[12%] py-20 mt-10 scroll-mt-20 bg-[url('{{ asset('frontend/assets/footer-bg-color.png') }}')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
         <h4 class="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
         <h2 class="text-center text-5xl font-Ovo">Get in touch</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
@@ -333,25 +333,25 @@
             @csrf
             <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
                 <input type="text" placeholder="Enter your name" name="name" value="{{ old('name') }}"
-                    class="flex-1 px-3 py-2 focus:ring-1 outline-none border border-gray-300 dark:border-white/30 rounded-md bg-white dark:bg-darkHover/30 @error('name') border-red-500 @enderror"
+                    class="flex-1 px-3 py-2 focus:ring-1 outline-none border dark:border-white/30 rounded-md bg-white dark:bg-darkHover/30 @error('name') border-red-500 @enderror"
                     required />
                 <input type="email" placeholder="Enter your email" name="email" value="{{ old('email') }}"
-                    class="flex-1 px-3 py-2 focus:ring-1 outline-none border border-gray-300 dark:border-white/30 rounded-md bg-white dark:bg-darkHover/30 @error('email') border-red-500 @enderror"
+                    class="flex-1 px-3 py-2 focus:ring-1 outline-none border dark:border-white/30 rounded-md bg-white dark:bg-darkHover/30 @error('email') border-red-500 @enderror"
                     required />
             </div>
             <div class="mb-6">
                 <input type="tel" placeholder="Enter your phone number" name="phone" value="{{ old('phone') }}"
-                    class="w-full px-3 py-2 focus:ring-1 outline-none border border-gray-300 dark:border-white/30 rounded-md bg-white dark:bg-darkHover/30 @error('phone') border-red-500 @enderror"
+                    class="w-full px-3 py-2 focus:ring-1 outline-none border rounded-md bg-white dark:bg-darkHover/30 @error('phone') border-red-500 @else dark:border-white/30 @enderror"
                     required />
                 @error('phone')
                     <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                 @enderror
             </div>
             <textarea rows="6" placeholder="Enter your message" name="message"
-                class="w-full px-4 py-2 focus:ring-1 outline-none border border-gray-300 dark:border-white/30 rounded-md bg-white mb-6 dark:bg-darkHover/30 @error('message') border-red-500 @enderror"
+                class="w-full px-4 py-2 focus:ring-1 outline-none border rounded-md bg-white mb-6 dark:bg-darkHover/30 @error('message') border-red-500 @else  dark:border-white/30 @enderror"
                 required>{{ old('message') }}</textarea>
             @error('message')
-                <p class="text-red-500 text-sm mt-1 -mt-4 mb-4">{{ $message }}</p>
+                <p class="text-red-500 text-sm mt-1 mb-4">{{ $message }}</p>
             @enderror
             <button type="submit"
                 class="py-2 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border dark:border-white/30 dark:hover:bg-darkHover">
